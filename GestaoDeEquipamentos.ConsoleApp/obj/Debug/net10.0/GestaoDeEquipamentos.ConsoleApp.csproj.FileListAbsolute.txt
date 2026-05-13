@@ -1,0 +1,15 @@
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\bin\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.exe
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\bin\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.deps.json
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\bin\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.runtimeconfig.json
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\bin\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.dll
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\bin\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.pdb
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\obj\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\obj\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.AssemblyInfoInputs.cache
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\obj\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.AssemblyInfo.cs
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\obj\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\obj\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.sourcelink.json
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\obj\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.dll
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\obj\Debug\net10.0\refint\GestaoDeEquipamentos.ConsoleApp.dll
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\obj\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.pdb
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\obj\Debug\net10.0\GestaoDeEquipamentos.ConsoleApp.genruntimeconfig.cache
+C:\AcademiaDoProgramador\c#\GestaoDeEquipamentos\GestaoDeEquipamentos.ConsoleApp\obj\Debug\net10.0\ref\GestaoDeEquipamentos.ConsoleApp.dll
