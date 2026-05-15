@@ -13,4 +13,5 @@ public class Equipamento
     public string nome;
     public decimal precoAquisicao;
     public DateTime dataFabricacao;
+
 }
