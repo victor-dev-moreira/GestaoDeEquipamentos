@@ -312,6 +312,104 @@ while (true)
             Console.WriteLine("Chamado aberto com sucesso!");
             Console.ReadLine();
         }
+        else if (opcaoMenuChamado == "2")
+        {
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("Editar Chamado");
+            Console.WriteLine("---------------------------------");
+
+            Console.WriteLine(
+                "{0, -7} | {1, -15} | {2, -30} | {3, -15} | {4, -15}",
+                "Id", "Titulo", "Descricao", "Data de Abertura", "Equipamento"
+            );
+            for (int i = 0; i < chamadosSalvos.Length; i++)
+            {
+                Chamados ch = chamadosSalvos[i];
+
+                if (ch == null)
+                    continue;
+
+                Console.WriteLine(
+                "{0, -7} | {1, -15} | {2, -30} | {3, -15} | {4, -15}",
+                ch.id, ch.titulo, ch.descricao, ch.dataAbertura.ToShortDateString(), ch.equipamento.nome
+            );
+            }
+            Console.WriteLine("---------------------------------");
+            Console.Write("Qual o ID do equipamento que deseja editar? ");
+            int idChamadoEditar = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("---------------------------------");
+            Console.Write("Nome do chamado? ");
+            string? novoTituloChamado = Console.ReadLine();
+
+            Console.WriteLine("---------------------------------");
+            Console.Write("Descricão do chamado? ");
+            string? novaDescricaoChamado = Console.ReadLine();
+
+            for (int i = 0; i < chamadosSalvos.Length; i++)
+            {
+                Chamados ch = chamadosSalvos[i];
+
+                if (ch == null)
+                    continue;
+
+                if (ch.id == idChamadoEditar)
+                {
+                    ch.titulo = novoTituloChamado;
+                    ch.descricao = novaDescricaoChamado;
+                }
+
+                Console.WriteLine($"Chamado Id{ch.id} editado com sucesso!");
+            }
+
+            Console.WriteLine("Pressione enter para seguir...");
+            Console.ReadLine();
+        }
+        else if (opcaoMenuChamado == "3")
+        {
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("Excluir Chamado");
+            Console.WriteLine("---------------------------------");
+
+            Console.WriteLine(
+                "{0, -7} | {1, -15} | {2, -30} | {3, -15} | {4, -15}",
+                "Id", "Titulo", "Descricao", "Data de Abertura", "Equipamento"
+            );
+            for (int i = 0; i < chamadosSalvos.Length; i++)
+            {
+                Chamados ch = chamadosSalvos[i];
+
+                if (ch == null)
+                    continue;
+
+                Console.WriteLine(
+                "{0, -7} | {1, -15} | {2, -30} | {3, -15} | {4, -15}",
+                ch.id, ch.titulo, ch.descricao, ch.dataAbertura.ToShortDateString(), ch.equipamento.nome
+            );
+            }
+
+            Console.WriteLine("---------------------------------");
+            Console.Write("Qual o ID do equipamento que deseja excluir? ");
+            int idChamadoExcluir = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < chamadosSalvos.Length; i++)
+            {
+                Chamados ch = chamadosSalvos[i];
+
+                if (ch == null)
+                    continue;
+
+                if (ch.id == idChamadoExcluir)
+                {
+                    chamadosSalvos[i] = null;
+                }
+                Console.WriteLine($"Chamado Id{ch.id} excluido com sucesso!");
+            }
+
+            Console.WriteLine("Pressione enter para seguir...");
+            Console.ReadLine();
+
+        }
         else if (opcaoMenuChamado == "4")
         {
             Console.WriteLine("---------------------------------");
