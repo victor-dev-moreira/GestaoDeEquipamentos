@@ -1,4 +1,6 @@
-﻿using GestaoDeEquipamentos.ConsoleApp.Dominio;
+﻿using GestaoDeEquipamentos.ConsoleApp.Apresentacao;
+using GestaoDeEquipamentos.ConsoleApp.Dominio;
+
 
 DateTime dataAgora = DateTime.Now; // data de agora
 Equipamento[] equipamentosSalvos = new Equipamento[100];
@@ -7,26 +9,12 @@ int contadorIdEquipamento = 1;
 Chamados[] chamadosSalvos = new Chamados[100];
 int contadorIdChamado = 1;
 
-Equipamento equipamentoTeste = new Equipamento();
-equipamentoTeste.id = 1;
-equipamentoTeste.nome = "Camisa";
-equipamentoTeste.precoAquisicao = 30;
-equipamentoTeste.dataFabricacao = DateTime.Parse("02/02/2020");
-
-equipamentosSalvos[0] = equipamentoTeste;
+TelaPrincipal telaPrincipal = new TelaPrincipal();
 
 while (true)
 {
-    Console.Clear();
-    Console.WriteLine("---------------------------------");
-    Console.WriteLine("Gestão de Equipamentos");
-    Console.WriteLine("---------------------------------");
-    Console.WriteLine("1 - Controle de equipamentos");
-    Console.WriteLine("2 - Controle de chamados");
-    Console.WriteLine("S - Sair");
-    Console.WriteLine("---------------------------------");
-    Console.Write("> ");
-    string? opcaoMenuPrincipal = Console.ReadLine()?.ToUpper();
+
+    string? opcaoMenuPrincipal = telaPrincipal.MenuPrincipal();
 
     if (opcaoMenuPrincipal == "S")
     {
