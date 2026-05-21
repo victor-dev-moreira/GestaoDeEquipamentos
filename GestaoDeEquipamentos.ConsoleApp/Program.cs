@@ -36,19 +36,19 @@ while (true)
 
             if (opcaoMenu == "1")
             {
-
+                menuEquipamento.Cadastro();
             }
             else if (opcaoMenu == "2")
             {
-
+                menuEquipamento.Editar();
             }
             else if (opcaoMenu == "3")
             {
-
+                menuEquipamento.Excluir();
             }
             else if (opcaoMenu == "4")
             {
-
+                menuEquipamento.Excluir();
             }
         }
     }
