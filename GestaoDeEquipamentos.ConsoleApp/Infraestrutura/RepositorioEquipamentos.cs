@@ -8,6 +8,8 @@ public class RepositorioEquipamentos
 
     public void Cadastro(Equipamento novoEquipamento)
     {
+        novoEquipamento.id = contadorIdEquipamento++;
+
         for (int i = 0; i < equipamentosSalvos.Length; i++)
         {
             if (equipamentosSalvos[i] == null)

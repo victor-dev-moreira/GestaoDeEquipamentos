@@ -1,5 +1,3 @@
-using System;
-
 /*
 • Deve ter um identificador único (id);
 • Deve ter a título do chamado;

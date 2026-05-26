@@ -5,10 +5,10 @@ namespace GestaoDeEquipamentos.ConsoleApp.Apresentacao;
 public class MenuEquipamento
 {
 
-    public RepositorioEquipamentos repositorioEquipamentos;
+    public RepositorioEquipamentos repositorioEquipamentos = new RepositorioEquipamentos();
     public string ObterMenuEquipamento()
     {
-        Console.Clear();
+        //Console.Clear();
         Console.WriteLine("---------------------------------");
         Console.WriteLine("Gestão de Equipamentos");
         Console.WriteLine("---------------------------------");
@@ -42,12 +42,11 @@ public class MenuEquipamento
         DateTime dataFabricacao = DateTime.Parse(Console.ReadLine());
 
         Equipamento equipamento = new Equipamento();
-
         equipamento.nome = nome;
         equipamento.dataFabricacao = dataFabricacao;
         equipamento.precoAquisicao = precoAquisicao;
 
-        repositorioEquipamentos.Cadastro(equipamento);
+        repositorioEquipamentos.Cadastro(equipamento);// ---------
 
         Console.WriteLine($"O Equipamento {equipamento.nome} cadastrado com sucesso!");
         Console.ReadLine();
